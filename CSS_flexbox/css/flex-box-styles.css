@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+    margin: auto 0;
+    
+}
+
+.flex-container {
+    display: flex;
+    gap: 30px;
+}
+
+.one {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+.two {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+}
+
+.three {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+@media (max-width: 750px) {
+    body {
+        background-color: gold;
+    }
+
+    .flex-container {
+        display: block;
+
+    }
+}
